@@ -1,0 +1,27 @@
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 150vh;
+  background-color: var(--pink);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 30px;
+  font-size: 32px;
+  top: 0;
+}
+
+#no-mobile > div{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 645px)  and  (orientation: portrait)  {
+  #no-mobile {
+    display: none;
+  }
+}

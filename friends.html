@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends - Kokoa Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>11%</span>
+            <i class="fas fa-battery-quarter fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div> 
+    
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+    </header>
+
+    <a id="friends-display-link">
+      <i class="fas fa-info-circle"></i> Friends' Names Display
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+ 
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT40SputFlpSxv9G9G3BvHdBITVCw9qGRTjkZtBjNGMkiy33S9AybcYrSquH47IL1JHtdk&usqp=CAU"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">도구리</h4>
+            <h6 class="user-component__subtitle">출근하기 싫다..</h6>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202202/23/c3164dcb-5313-40cf-a034-0a37c2b12c5a.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                출근하기 싫은 도구리 채널
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>2</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="#"><i class="fas fa-user fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">8</span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+              <a class="nav__link" href="find.html">
+                <i class="fas fa-search fa-2x"></i>
+              </a>
+            </li>
+            <li class="nav__btn"><a class="nav__link" href="more.html"><i class="fa-solid fa-ellipsis fa-2x"></i></a></li>
+        </ul>
+    </nav>
+
+    <div id="splash-screen">
+      <!-- <i class="fas fa-comment"></i> -->
+      <img src="https://w.namu.la/s/1243f914f0c6f87022932221b68fbd23979ff85157f46e4621a12359bb94298705654562707b778c8b5d1ee559df0b3f8d6a80dc19f4d6e3fb3558eafd6fedb40b9f6e5683e6d6a36548c43485a61f0d610976b8c569556e41e31605645c898d">
+    </div>
+
+    <div id="no-mobile">
+      <div>
+        <img src="./screenshots/도구리.PNG">
+        <span>스크린을 줄여 도구리를 구해주세요!! <br>혹은 가로모드를 풀어주세요!!</span>
+      </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/0686c212ab.js"
+    crossorigin="anonymous"></script>
+</body>
+</html>                                         

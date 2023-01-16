@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chats - Kokoa Clone</title>
+</head>
+
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>110%</span>
+      <i class="fas fa-battery-full fa-lg"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+
+  <header class="screen-header">
+    <h1 class="screen-header__title">Chats</h1>
+    <div class="screen-header__icons">
+      <span><i class="fas fa-search fa-lg"></i></span>
+      <span><i class="far fa-comment-dots fa-lg"></i></span>
+      <span><i class="fas fa-music fa-lg"></i></span>
+      <span><i class="fas fa-cog fa-lg"></i></span>
+    </div>
+  </header>
+
+  <main class="main-screen">
+    <a href="chat.html">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPPyWZhIukH7o3xjEsjGb6Lu7BIXf560Zu1w&usqp=CAU"
+            class="user-component__avatar user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">정도굴 팀장님</h4>
+            <h6 class="user-component__subtitle">
+              그리고 도굴씨 내일 오전까지 업무 보고서 있는거 알지? 다~ 도굴씨 위해서 시키는 거니깐...
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">22:54</span>
+          <div class="badge">7</div>
+        </div>
+      </div>
+    </a>
+    <a href="chat.html">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://w.namu.la/s/ff503007dda35e62d626c1fd655fd7b239ab4ca2c438ddbe70b6174aaa4840e697b42715b7c9c5884d79e7920adf605642a1b07f04f468b748d65b3aba1c0502678f0659fe61371cce79bae8fd3a919b5115634a4b009194b9f5e9153a6ad1450a3b731da3464416d2b1955270996383"
+            class="user-component__avatar user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">나도굴 (동기)</h4>
+            <h6 class="user-component__subtitle">
+              너는 내일 회사를 간다..!!
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">20:34</span>
+          <div class="badge">1</div>
+        </div>
+      </div>
+    </a>
+    <a href="chat.html">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="data:image/png;base64,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"
+            class="user-component__avatar user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">월급날</h4>
+            <h6 class="user-component__subtitle">
+              [2022년] 연말정산 시작 안내...
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">09:22</span>
+          <div class="badge read">1</div>
+        </div>
+      </div>
+    </a>
+    <a href="chat.html">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://w.namu.la/s/a562a882e2731fc4c1f70badecfc595ebcd91993934e8a4999eecd4abc2221eae3b0f60ecfb51af846c821bc50282127c0355a8fd62394e4305f9285246ca3dd978da7471637fd4d1cb54b32e90d76f64cff4de686ba0c9e4aacf6cbc35ebf2e3da022bdbab4fb8572769a94f2cc9e19"
+            class="user-component__avatar user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">신입사원 김도굴씨</h4>
+            <h6 class="user-component__subtitle">
+              넵!
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">어제</span>
+          <div class="badge read">1</div>
+        </div>
+      </div>
+    </a>
+  </main>
+
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__btn">
+        <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="chats.html">
+          <span class="nav__notification badge">8</span>
+          <i class="fas fa-comment fa-2x"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        </a>
+        <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+      </li>
+    </ul>
+  </nav>
+  <div id="no-mobile">
+      <div>
+        <img src="./screenshots/도구리.PNG">
+        <span>스크린을 줄여 도구리를 구해주세요!! <br>혹은 가로모드를 풀어주세요!!</span>
+      </div>
+    </div>
+  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
